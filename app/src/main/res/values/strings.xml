@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LianjiangDemo</string>
+
+    <array name="data">
+        <item>12133</item>
+        <item>6588746</item>
+    </array>
+</resources>
