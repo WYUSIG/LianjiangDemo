@@ -8,6 +8,7 @@ package com.example.sig.lianjiangdemo.activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewTreeObserver;
@@ -30,6 +31,7 @@ public class Main2Activity extends BaseActivity implements ObservableScrollView.
         setContentView(R.layout.activity_main2);
         toolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(toolbar);
+        Log.e("111","222");
         scrollView = (ObservableScrollView) findViewById(R.id.scrollview);
         imageView = (ImageView) findViewById(R.id.imageview);
         initListeners();
